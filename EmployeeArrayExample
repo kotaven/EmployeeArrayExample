@@ -1,0 +1,43 @@
+public class EmployeesEx1 {
+	public static void main(String[] args) {
+		int size=4;
+		int[] employeeID = new int[size];
+	    String[] firstName = new String[size];
+	    String[] lastName = new String[size];
+	    String[] department = new String[size];
+	    double[] salary = new double[size];
+	    
+	    employeeID[0] = 1;
+        firstName[0] = "venkatesh";
+        lastName[0] = "kota";
+        department[0] = "MECHANICAL";
+        salary[0] = 1000000.00;
+        
+        employeeID[1] = 2;
+        firstName[1] = "sai k";
+        lastName[1] = "g";
+        department[1] = "CSE";
+        salary[1] = 500000.00;
+        
+        employeeID[2] = 3;
+        firstName[2] = "sai teja";
+        lastName[2] = "b";
+        department[2] = "AI";
+        salary[2] = 400000.00;
+        
+        employeeID[3] = 4;
+        firstName[3] = "dinesh";
+        lastName[3] = "b";
+        department[3] = "CSE";
+        salary[3] = 600000.00;
+        System.out.println("Employee Information:");
+        for (int i = 0; i < size; i++) {
+            System.out.println("Employee ID: " + employeeID[i]);
+            System.out.println("Name: " + firstName[i] + " " + lastName[i]);
+            System.out.println("Department: " + department[i]);
+            System.out.println("Salary: $" + salary[i]);
+            System.out.println();
+        }
+	}
+
+}
